@@ -12,5 +12,6 @@ chmod -Rf 777 /data/database
 chmod -Rf 777 /data/uploads
 
 echo "$ADMIN_EMAIL"
+echo "$ADMIN_PASSWORD"
 npx directus bootstrap
 npx directus start
