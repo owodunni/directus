@@ -11,6 +11,6 @@ mkdir -p /data/uploads
 chmod -Rf 777 /data/database
 chmod -Rf 777 /data/uploads
 
-
+echo "$ADMIN_EMAIL"
 npx directus bootstrap
 npx directus start
